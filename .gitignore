@@ -1,0 +1,7 @@
+runtime.json
+__pycache__/
+*.xpi
+bridge-error.log
+.pytest_cache/
+.DS_Store
+
