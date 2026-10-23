@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Codex 伴读（本机会话）",
+  "version": "0.1.3",
+  "description": "在 Zotero 中继续指定的本机 Codex 会话，支持附带当前阅读页。",
+  "author": "Local custom integration",
+  "icons": {"48": "chat.svg", "96": "chat.svg"},
+  "applications": {
+    "zotero": {
+      "id": "zotero-codex-chat@local.user",
+      "update_url": "https://127.0.0.1:23126/updates.json",
+      "strict_min_version": "7.0",
+      "strict_max_version": "10.*"
+    }
+  }
+}
+
